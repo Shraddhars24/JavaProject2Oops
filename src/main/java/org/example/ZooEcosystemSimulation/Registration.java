@@ -22,7 +22,7 @@ public class Registration {
     }
 
     public void setPassword(String password) {
-        if (password.length() > 6 && !password.contains(userName)) {
+        if (password!=null && password.length() > 6 && !password.contains(userName)) {
             this.password = password;
         } else {
             System.out.println("Invalid password. Password must be longer than 6 characters and cannot contain username.");

@@ -6,7 +6,7 @@ public class E10ArrayListRemoveDuplicates {
     public static void main(String[] args) {
         //Create an ArrayList with Integer with duplicate elements
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(10, 20, 30, 20, 45, 50, 35, 45));
-
+git log
         // Convert the ArrayList into a HashSet. Remove duplicates by converting ArrayList to a Set
         LinkedHashSet<Integer> set = new LinkedHashSet<>(list);//LinkedHashSet is used to maintain the original order.
 
